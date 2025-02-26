@@ -1,0 +1,21 @@
+{
+  "name": "the-theme",
+  "displayName": "The Theme",
+  "description": "The theme of all themes.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "The Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/the-theme-color-theme.json"
+      }
+    ]
+  }
+}
