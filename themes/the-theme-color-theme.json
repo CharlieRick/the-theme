@@ -196,7 +196,7 @@
     "welcomePage.buttonBackground": null,
     "welcomePage.buttonHoverBackground": null,
     "walkThrough.embeddedEditorBackground": "#232635",
-    "gitDecoration.modifiedResourceForeground": "#e2c08de6",
+    "gitDecoration.modifiedResourceForeground": "#FF6F61",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.untrackedResourceForeground": "#a9c77dff",
     "gitDecoration.ignoredResourceForeground": "#69709890",
@@ -308,7 +308,7 @@
       "name": "Keyword",
       "scope": ["punctuation.accessor", "keyword"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#89DDFF"
       }
     },
     {
@@ -376,14 +376,14 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "#FFEB95"
+        "foreground": "#f4d961"
       }
     },
     {
       "name": "Standard HTML Tags",
       "scope": ["entity.name.tag", "meta.tag.html", "meta.tag.other.html"],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#e65e35"
       }
     },
     {
@@ -398,7 +398,7 @@
         "meta.tag.tsx"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#f96e43"
       }
     },
     {
@@ -498,7 +498,7 @@
       "name": "Null",
       "scope": "constant.language.null",
       "settings": {
-        "foreground": "#ff5874"
+        "foreground": "#80CBC4"
       }
     },
     {
@@ -1453,6 +1453,13 @@
       }
     },
     {
+      "name": "Class and Interface Names",
+      "scope": ["entity.name.type.interface.tsx", "meta.interface.tsx"],
+      "settings": {
+        "foreground": "#f8db58"
+      }
+    },
+    {
       "name": "TypeScript[React] Variables and Object Properties",
       "scope": [
         "variable.other.readwrite.alias.ts",
@@ -1473,10 +1480,17 @@
       }
     },
     {
+      "name": "TSX Variables",
+      "scope": "variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
       "name": "TypeScript[React] Entity Name Types",
       "scope": ["entity.name.type.ts", "entity.name.type.tsx"],
       "settings": {
-        "foreground": "#78ccf0"
+        "foreground": "#f8db58"
       }
     },
     {

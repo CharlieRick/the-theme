@@ -2,7 +2,7 @@
   "name": "the-theme",
   "displayName": "The Theme",
   "description": "The theme of all themes.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.97.0"
   },
