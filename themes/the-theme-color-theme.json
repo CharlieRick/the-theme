@@ -196,7 +196,7 @@
     "welcomePage.buttonBackground": null,
     "welcomePage.buttonHoverBackground": null,
     "walkThrough.embeddedEditorBackground": "#232635",
-    "gitDecoration.modifiedResourceForeground": "#FF6F61",
+    "gitDecoration.modifiedResourceForeground": "#8ccdfc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.untrackedResourceForeground": "#a9c77dff",
     "gitDecoration.ignoredResourceForeground": "#69709890",
@@ -399,6 +399,7 @@
       ],
       "settings": {
         "foreground": "#f96e43"
+        "foreground": "#e9704a"
       }
     },
     {
